@@ -1,0 +1,449 @@
+/* Координаты кнопок под разное разрешение */
+
+/* 1920px */
+
+@media screen and (min-width: 1851px) and (max-width: 1920px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 480px;
+    left: 680px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 430px;
+    left: 1120px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 680px;
+    left: 1300px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 830px;
+    left: 1100px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 720px;
+    left: 420px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 660px;
+    left: 1080px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 480px;
+    left: 1430px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 730px;
+    left: 1580px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 300px;
+    left: 570px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 220px;
+    left: 1380px;
+  }
+}
+
+/* 1850px */
+
+@media screen and (min-width: 1701px) and (max-width: 1850px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 440px;
+    left: 640px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 390px;
+    left: 1080px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 640px;
+    left: 1260px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 790px;
+    left: 1060px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 680px;
+    left: 380px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 620px;
+    left: 1040px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 440px;
+    left: 1390px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 690px;
+    left: 1540px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 260px;
+    left: 530px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 180px;
+    left: 1340px;
+  }
+}
+
+/* 1700px */
+
+@media screen and (min-width: 1611px) and (max-width: 1700px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 350px;
+    left: 1020px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 600px;
+    left: 1120px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 740px;
+    left: 980px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 630px;
+    left: 360px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 570px;
+    left: 950px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 420px;
+    left: 1250px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 640px;
+    left: 1400px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 260px;
+    left: 490px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 180px;
+    left: 1190px;
+  }
+}
+
+/* 1610px */
+
+@media screen and (min-width: 1511px) and (max-width: 1610px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 400px;
+    left: 560px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 350px;
+    left: 940px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 550px;
+    left: 1060px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 710px;
+    left: 920px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 605px;
+    left: 340px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 520px;
+    left: 885px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 420px;
+    left: 1180px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 610px;
+    left: 1310px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 230px;
+    left: 450px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 180px;
+    left: 1110px;
+  }
+}
+
+/* 1510px */
+
+@media screen and (min-width: 1391px) and (max-width: 1510px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 370px;
+    left: 510px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 330px;
+    left: 870px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 520px;
+    left: 990px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 660px;
+    left: 850px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 570px;
+    left: 330px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 500px;
+    left: 835px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 390px;
+    left: 1100px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 590px;
+    left: 1240px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 210px;
+    left: 430px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 150px;
+    left: 1060px;
+  }
+}
+
+/* 1390px */
+
+@media screen and (min-width: 1301px) and (max-width: 1390px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 350px;
+    left: 480px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 310px;
+    left: 810px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 480px;
+    left: 910px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 590px;
+    left: 780px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 500px;
+    left: 280px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 460px;
+    left: 760px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 530px;
+    left: 1140px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 210px;
+    left: 350px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 150px;
+    left: 960px;
+  }
+}
+
+/* 1300px */
+
+@media screen and (max-width: 1300px) {
+  .Green-button:nth-child(1) {
+    position: absolute;
+    top: 310px;
+    left: 440px;
+  }
+  
+  .Green-button:nth-child(2) {
+    position: absolute;
+    top: 270px;
+    left: 770px;
+  }
+
+  .Green-button:nth-child(3) {
+    position: absolute;
+    top: 450px;
+    left: 850px;
+  }
+
+  .Green-button:nth-child(4) {
+    position: absolute;
+    top: 550px;
+    left: 740px;
+  }
+
+  .Blue-button:nth-child(5) {
+    position: absolute;
+    top: 460px;
+    left: 260px;
+  }
+
+  .Blue-button:nth-child(6) {
+    position: absolute;
+    top: 430px;
+    left: 700px;
+  }
+
+  .Blue-button:nth-child(7) {
+    position: absolute;
+    top: 330px;
+    left: 930px;
+  }
+
+  .Blue-button:nth-child(8) {
+    position: absolute;
+    top: 480px;
+    left: 1060px;
+  }
+
+  .Blue-button:nth-child(9) {
+    position: absolute;
+    top: 190px;
+    left: 350px;
+  }
+
+  .Blue-button:nth-child(10) {
+    position: absolute;
+    top: 130px;
+    left: 920px;
+  }
+}

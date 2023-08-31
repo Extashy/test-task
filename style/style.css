@@ -1,0 +1,188 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и ol, у которых есть атрибут class */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not[class] {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитают их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+}
+
+body {
+  background: url(../img/background.jpg) no-repeat;
+  background-size: contain;
+}
+
+.Section__button {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #6ABF4B;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.88;
+}
+
+.Green-button {
+  background-color: #6ABF4B;
+}
+
+.Blue-button {
+  background-color: #3877EE;
+}
+
+.Section__button.expanded {
+  width: 135px;
+  height: 41px;
+  border-radius: 40px;
+  white-space: nowrap;
+}
+
+.Button-status {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.Button-content {
+  display: none;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Координаты кнопок по-дефолту */
+
+.Green-button:nth-child(1) {
+  position: absolute;
+  top: 480px;
+  left: 680px;
+}
+
+.Green-button:nth-child(2) {
+  position: absolute;
+  top: 430px;
+  left: 1120px;
+}
+
+.Green-button:nth-child(3) {
+  position: absolute;
+  top: 680px;
+  left: 1300px;
+}
+
+.Green-button:nth-child(4) {
+  position: absolute;
+  top: 830px;
+  left: 1100px;
+}
+
+.Blue-button:nth-child(5) {
+  position: absolute;
+  top: 720px;
+  left: 420px;
+}
+
+.Blue-button:nth-child(6) {
+  position: absolute;
+  top: 660px;
+  left: 1080px;
+}
+
+.Blue-button:nth-child(7) {
+  position: absolute;
+  top: 480px;
+  left: 1430px;
+}
+
+.Blue-button:nth-child(8) {
+  position: absolute;
+  top: 730px;
+  left: 1580px;
+}
+
+.Blue-button:nth-child(9) {
+  position: absolute;
+  top: 300px;
+  left: 570px;
+}
+
+.Blue-button:nth-child(10) {
+  position: absolute;
+  top: 220px;
+  left: 1380px;
+}
